@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+    color: #ffffff;
+    list-style: none;
+}
+.box{
+    width: 260px;
+    margin: 0 auto;
+   background: black;
+    padding: 25px 15px 100px;
+}
+/*.wrap {
+	width: 260px;
+	
+}*/
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+h3{
+    color: white;
+}
+.dkje{
+    width: 230px;
+    height:20px;
+}
+.dkje span{
+    font-size: 12px;
+}
+.dkje span:nth-of-type(2){
+    float: right;
+    line-height: 26px;
+ }
+.inp{
+    width: 230px;
+    height: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.inp div{
+    float: left;
+    width: 190px;
+    height: 40px;
+    background: white;
+}
+.inp div p:nth-of-type(1){
+    margin-left: 5px;
+    float: left;
+    color: #303030;
+    line-height: 40px;
+}
+.inp div p:nth-of-type(2){
+    margin-right: 5px;
+    float: right;
+     color: #303030;
+     line-height: 40px;
+}
+.inp input{
+    width: 40px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    color: #303030;
+    border: none;
+    outline: none;
+    float: left;
+}
+.qx{
+    width: 230px;
+    height:20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+a{
+    display: block;
+    background: purple;
+    text-align: center;
+    line-height: 40px;
+    width: 230px;
+    height: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.bottom{
+    width: 230px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C9C5C2;
+    text-align: center;
+    margin-top: 10px;
+}
+.ul1{
+    width: 230px;
+    height: 100px;
+    background: white;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top:40px;
+    left: 0;
+}.ul2{
+    position: absolute;
+    top:40px;
+    left: 0;
+     background: white;
+     z-index: 1;
+     display: none;
+}
+.ul1 li{
+	width: 230px;
+	height: 20px;
+	color:#303030;
+}
+.ul2 li{
+	width: 230px;
+	color:#303030;
+	height: 20px;
+}
+.ul1 li:hover{
+	background: #C6D6E7;
+}
+.ul2 li:hover{
+	background: #C6D6E7;
+}
